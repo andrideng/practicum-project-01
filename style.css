@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0e2e;
+    padding: 20px;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__search-bar {
+    width: 400px;
+}
+
+/* nav */
+.nav {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__link {
+    color: white;
+    cursor: pointer;
+}
+
+.nav__link:hover {
+    text-decoration: none;
+}
+
+/* slider */
+.slider {
+    background-image: url(https://wallpaperaccess.com/full/3518004.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.slider__title {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0c0e2e;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    min-height: 800px;
+}
+
+.content__title {
+    color: white;
+}
+
+
+.content__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* margin: 10px 0; */
+}
+
+.card {
+    border: 2px dashed white;
+    cursor: pointer;
+}
+.card:hover {
+    border: 2px solid white;
+}
+
+.card__image {
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px
+}
+
+.card__title {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+
+/* footer */
+.footer {
+    background: black;
+}
+.footer__text {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+/* button */
+.btn {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px 0 15px 0;
+    color: white;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mt-10 { margin-top: 10px }
