@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: fantasy;
+    color: #fff;
+    background-color: #0c0e2e;
 }
 
 /* header */
@@ -66,7 +68,13 @@ body {
 .content__title {
     color: white;
 }
-
+.content__title h1, 
+.content__title p {
+    margin: 0;
+}
+.content__title p {
+    text-align: center;
+}
 
 .content__row {
     display: flex;
@@ -78,6 +86,10 @@ body {
 .card {
     border: 2px dashed white;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .card:hover {
     border: 2px solid white;
@@ -93,6 +105,23 @@ body {
     text-align: center;
     font-weight: 800;
     color: white;
+    width: 80px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__btn {
+    color: #fff; /* white */
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 1s ease;
+}
+.card__btn:hover {
+    font-size: 20px;
 }
 
 /* footer */
