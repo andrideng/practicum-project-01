@@ -6,7 +6,7 @@
 }
 
 .content-aside {
-    border: 1px solid;
+    /* border: 1px solid; */
     min-height: 200px;
     /* flex-grow: 1; */
     width: 30%;
@@ -19,7 +19,7 @@
 }
 
 .content-section {
-    border: 1px solid;
+    /* border: 1px solid; */
     min-height: 500px;
     /* flex-grow: 12; */
     width: 80%;
@@ -37,7 +37,64 @@
 .section-one__input {
     margin-bottom: 20px;
 }
-.section-one__input input {
+.section-one__input input,
+.section-three__input input,
+.section-five__input input,
+.section-six__input input {
     width: 100%;
     height: 25px;
+}
+
+/* section two */
+.section-two {
+    margin-bottom: 20px
+}
+
+.section-two__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-two__container label {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    background: #161e4d
+}
+
+/* section four */
+.section-four__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-four__container label {
+    border: 2px solid;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.section-four__container label img {
+    width: 100px;
+}
+
+/* section six */
+.section-six {
+    margin-bottom: 20px;
+}
+
+.content_section__btn button {
+    width: 100%;
+    height: 50px;
+    font-family: fantasy;
+    background: #161e4d;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
 }

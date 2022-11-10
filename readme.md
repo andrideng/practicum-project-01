@@ -12,7 +12,7 @@ styles/detail.css
 
 ## Note
 ```
-Untuk besok, akana melanjutkan bagian detail untuk nomor 2, 3, 4, 5 dan 6.
+TBD
 ```
 
 ## Author
