@@ -148,3 +148,36 @@ body {
 }
 
 .mt-10 { margin-top: 10px }
+
+/* media query part */
+@media only screen and (max-width: 320px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__logo {
+        margin-bottom: 20px;
+    }
+
+    .header__search-bar {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .slider {
+        height: 200px;
+    }
+    .slider__title {
+        font-size: 12px;
+    }
+
+    .content__row {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}

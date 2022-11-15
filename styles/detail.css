@@ -98,3 +98,26 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+/* media query part */
+@media only screen and (max-width: 320px) {
+    .content-detail {
+        flex-direction: column;
+    }
+
+    .content-aside {
+        width: auto;
+    }
+
+    .content-aside__card {
+        font-size: 12px;
+    }
+
+    .section-two__container {
+        flex-direction: column;
+    }
+
+    .section-two__container label {
+        margin-bottom: 15px;
+    }
+}
