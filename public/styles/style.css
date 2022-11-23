@@ -181,3 +181,10 @@ body {
         margin-bottom: 15px;
     }
 }
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+}
